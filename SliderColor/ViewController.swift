@@ -26,14 +26,11 @@ class ViewController: UIViewController {
         colorView.layer.cornerRadius = 10
         
         updateLabels()
-        
         setColor()
     }
     
     @IBAction func rgbSlider(_ sender: UISlider) {
-        
         setColor()
-        
         updateLabels()
     }
     
