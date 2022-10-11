@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F72F77428F5CB1600CECF09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F72F77328F5CB1600CECF09 /* ViewController.swift */; };
 		1F964A2128F010F900A4ED65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F964A2028F010F900A4ED65 /* AppDelegate.swift */; };
 		1F964A2328F010F900A4ED65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F964A2228F010F900A4ED65 /* SceneDelegate.swift */; };
-		1F964A2528F010F900A4ED65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F964A2428F010F900A4ED65 /* ViewController.swift */; };
+		1F964A2528F010F900A4ED65 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F964A2428F010F900A4ED65 /* SettingsViewController.swift */; };
 		1F964A2828F010F900A4ED65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F964A2628F010F900A4ED65 /* Main.storyboard */; };
 		1F964A2A28F010FF00A4ED65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F964A2928F010FF00A4ED65 /* Assets.xcassets */; };
 		1F964A2D28F010FF00A4ED65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F964A2B28F010FF00A4ED65 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F72F77328F5CB1600CECF09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F964A1D28F010F900A4ED65 /* SliderColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F964A2028F010F900A4ED65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F964A2228F010F900A4ED65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F964A2428F010F900A4ED65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F964A2428F010F900A4ED65 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1F964A2728F010F900A4ED65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F964A2928F010FF00A4ED65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F964A2C28F010FF00A4ED65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +60,12 @@
 			children = (
 				1F964A2028F010F900A4ED65 /* AppDelegate.swift */,
 				1F964A2228F010F900A4ED65 /* SceneDelegate.swift */,
-				1F964A2428F010F900A4ED65 /* ViewController.swift */,
+				1F964A2428F010F900A4ED65 /* SettingsViewController.swift */,
 				1F964A2628F010F900A4ED65 /* Main.storyboard */,
 				1F964A2928F010FF00A4ED65 /* Assets.xcassets */,
 				1F964A2B28F010FF00A4ED65 /* LaunchScreen.storyboard */,
 				1F964A2E28F010FF00A4ED65 /* Info.plist */,
+				1F72F77328F5CB1600CECF09 /* ViewController.swift */,
 			);
 			path = SliderColor;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F964A2528F010F900A4ED65 /* ViewController.swift in Sources */,
+				1F964A2528F010F900A4ED65 /* SettingsViewController.swift in Sources */,
 				1F964A2128F010F900A4ED65 /* AppDelegate.swift in Sources */,
+				1F72F77428F5CB1600CECF09 /* ViewController.swift in Sources */,
 				1F964A2328F010F900A4ED65 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
