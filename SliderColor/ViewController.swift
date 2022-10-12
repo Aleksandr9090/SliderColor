@@ -7,17 +7,25 @@
 
 import UIKit
 
+protocol SettingsViewControllerDelegate {
+    func setColor(_ color: UIColor)
+}
+
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
-    
-
-    // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    
+        guard let settingsVC = segue.destination as? SettingsViewController else { return }
+        settingsVC.color = view.backgroundColor
+        settingsVC.delegate = self
     }
-
 }
+
+// Mark: - SettingsViewControllerDelegate
+extension ViewController: SettingsViewControllerDelegate {
+    func setColor(_ color: UIColor) {
+        view.backgroundColor = color
+    }
+}
+
+
+
